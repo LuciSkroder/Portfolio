@@ -3,10 +3,10 @@
   --primary-color: #dbfcec;
   --primary-dark: #184e51;
   --primary-light: #acc6c9;
-  --background: #f1f1f4;
+  --background: #e7f8f8;
   --dark: #363135;
   --text-light: #ad98c4;
-  --white: #ffffff;
+  --white: #f3e6d7;
   --border-radius: 8px;
   --shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
@@ -59,4 +59,8 @@ nav a:hover {
 
 nav a.active {
   background-color: var(--primary-dark);
+}
+
+nav a.active:hover {
+  color: var(--primary-color);
 }
