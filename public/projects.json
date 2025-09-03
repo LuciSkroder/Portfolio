@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "title": "Steno, Den Oversete Krop",
+    "year": 2025,
+    "description": "Mit anden semesters eksamen projekt. Projektet er designet til ipad12 pro, og er tiltænkt at skulle hænge på væggende rundt omkring i udstillingen på Steno Museet.",
+    "tags": ["JavaScript", "Project", "Frontend"],
+    "image": "",
+    "links": [
+      {
+        "url": "https://eksamensteno2025.luciskroder.dk/",
+        "text": "Endometriose"
+      }
+    ]
+  }
+]
