@@ -16,7 +16,7 @@ export default function LanguageSelector() {
         className={`flag-margin flag-size ${
           selectedLanguage === "en" ? "flag-selected" : ""
         }`}
-        src="/public/imgs/uk-flag.png"
+        src="https://luciskroder.github.io/Portfolio/imgs/uk-flag.png"
         alt="British flag"
         onClick={() => chooseLanguage("en")}
       />
@@ -24,7 +24,7 @@ export default function LanguageSelector() {
         className={`flag-size ${
           selectedLanguage === "dk" ? "flag-selected" : ""
         }`}
-        src="/public/imgs/dk-flag.png"
+        src="https://luciskroder.github.io/Portfolio/imgs/dk-flag.png"
         alt="Danish flag"
         onClick={() => chooseLanguage("dk")}
       />
