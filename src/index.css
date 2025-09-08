@@ -32,6 +32,13 @@ body {
   line-height: 1.6;
 }
 
+/* ---------- Personal Logo ---------- */
+.personal-logo {
+  height: 44px;
+  position: absolute;
+  margin: 1.1rem;
+}
+
 /* ---------- Navigation ---------- */
 nav {
   display: flex;
