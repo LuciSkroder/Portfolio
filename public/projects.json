@@ -3,13 +3,41 @@
     "id": 1,
     "title": "Steno, Den Oversete Krop",
     "year": 2025,
-    "description": "Mit anden semesters eksamen projekt. Projektet er designet til ipad12 pro, og er tiltænkt at skulle hænge på væggende rundt omkring i udstillingen på Steno Museet.",
-    "tags": ["JavaScript", "Project", "Frontend"],
-    "image": "",
+    "description": "Mit anden semesters eksamen projekt. Projektet er designet til ipad12 pro, og er tiltænkt at skulle hænge på væggende rundt omkring i udstillingen på Steno Museet. Projektet var et gruppe projekt hvor vi arbejde tæt sammen omkring design valg og kode implementation.",
+    "tags": ["JavaScript", "Project", "Frontend", "Design"],
+    "image": "https://luciskroder.github.io/Portfolio/imgs/project-endemotriose.webp",
     "links": [
       {
         "url": "https://eksamensteno2025.luciskroder.dk/",
         "text": "Endometriose"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Webdesign, brudekjoler",
+    "year": 2024,
+    "description": "Et gruppe projekt med fokus på responsivt og visuelt lækkert design. Projekt opgaver blev delt ud til gruppen, her stod jeg primært for at kode funktionalitet og optimering af hjemmesiden, men var med i design processen.",
+    "tags": ["html", "Project", "Frontend", "Design"],
+    "image": "https://luciskroder.github.io/Portfolio/imgs/project-responsiv.webp",
+    "links": [
+      {
+        "url": "http://responsiveweb.luciskroder.dk/",
+        "text": "Brudekjole butik"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "UX hjemmeside projekt",
+    "year": 2025,
+    "description": "Projektet havde fokus på UX og bruger oplevelse. Vi skulle optimere vores løsning med et så gnidningsfrit design som muligt.",
+    "tags": ["JavaScript", "Project", "Frontend", "Design"],
+    "image": "https://luciskroder.github.io/Portfolio/imgs/project-zerobuzz.webp",
+    "links": [
+      {
+        "url": "http://zerobuzzbrew.luciskroder.dk",
+        "text": "Zero Buzz Brew"
       }
     ]
   }
