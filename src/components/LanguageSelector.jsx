@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import i18n from "../i18n";
 
 export default function LanguageSelector() {
@@ -13,8 +13,8 @@ export default function LanguageSelector() {
 
   return (
     <select defaultValue={selectedLanguage} onChange={chooseLanguage}>
-      <option value="dk">Danish</option>
       <option value="en">English</option>
+      <option value="dk">Danish</option>
     </select>
   );
 }
