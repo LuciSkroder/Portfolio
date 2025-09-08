@@ -101,3 +101,8 @@ nav a.active:hover {
   top: 10%;
   left: 1%;
 }
+
+.photo-aside img {
+  height: 256px;
+  border-radius: 50px;
+}
