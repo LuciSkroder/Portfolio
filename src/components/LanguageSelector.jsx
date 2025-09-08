@@ -2,19 +2,28 @@ import { useState } from "react";
 import i18n from "../i18n";
 
 export default function LanguageSelector() {
-  const [selectedLanguage, setSelectedLanguage] = useState(i18n.language); // i18n.language contains the language assigned to lng in i18n.js file.
+  const [selectedLanguage, setSelectedLanguage] = useState(i18n.language);
 
-  const chooseLanguage = (e) => {
-    e.preventDefault();
-    i18n.changeLanguage(e.target.value); // i18n.changeLanguage() is used to change the language assigned to lng in i18n.js file.
-    setSelectedLanguage(e.target.value);
-    localStorage.setItem("lang", e.target.value);
+  const chooseLanguage = (lang) => {
+    i18n.changeLanguage(lang);
+    setSelectedLanguage(lang);
+    localStorage.setItem("lang", lang);
   };
 
   return (
-    <select defaultValue={selectedLanguage} onChange={chooseLanguage}>
-      <option value="en">English</option>
-      <option value="dk">Danish</option>
-    </select>
+    <div className="lang-flags">
+      <img
+        className="flag-margin flag-size"
+        src="/public/imgs/uk-flag.png"
+        alt="British flag"
+        onClick={() => chooseLanguage("en")}
+      />
+      <img
+        className="flag-size"
+        src="/public/imgs/dk-flag.png"
+        alt="Danish flag"
+        onClick={() => chooseLanguage("dk")}
+      />
+    </div>
   );
 }
