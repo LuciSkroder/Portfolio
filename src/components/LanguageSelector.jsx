@@ -13,13 +13,17 @@ export default function LanguageSelector() {
   return (
     <div className="lang-flags">
       <img
-        className="flag-margin flag-size"
+        className={`flag-margin flag-size ${
+          selectedLanguage === "en" ? "flag-selected" : ""
+        }`}
         src="/public/imgs/uk-flag.png"
         alt="British flag"
         onClick={() => chooseLanguage("en")}
       />
       <img
-        className="flag-size"
+        className={`flag-size ${
+          selectedLanguage === "dk" ? "flag-selected" : ""
+        }`}
         src="/public/imgs/dk-flag.png"
         alt="Danish flag"
         onClick={() => chooseLanguage("dk")}

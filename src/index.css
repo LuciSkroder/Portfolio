@@ -85,3 +85,9 @@ nav a.active:hover {
 .flag-size {
   height: 54px;
 }
+
+.flag-selected {
+  outline: 3px solid var(--text-light);
+  outline-offset: 2px;
+  border-radius: 50%;
+}
