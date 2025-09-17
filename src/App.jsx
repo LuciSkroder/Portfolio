@@ -4,6 +4,7 @@ import ProjectsPage from "./pages/ProjectsPage";
 import CVPage from "./pages/CVPage";
 import NavBar from "./components/NavBar";
 import DetailPage from "./pages/DetailPage";
+import AboutPage from "./pages/AboutPage";
 
 export default function App() {
   return (
@@ -12,8 +13,9 @@ export default function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/projects" element={<ProjectsPage />} />
-        <Route path="/cv" element={<CVPage />} />
         <Route path="/projects/:id" element={<DetailPage />} />
+        <Route path="/cv" element={<CVPage />} />
+        <Route path="/about" element={<AboutPage />} />
       </Routes>
     </BrowserRouter>
   );

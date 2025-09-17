@@ -102,14 +102,23 @@ nav a.active:hover {
 
 .hp-intro {
   padding: 2rem;
+  margin-bottom: 20rem;
 }
 
-.hp-intro,
+.hp-intro h1,
 .hp-skills h1,
 h2,
 h3 {
   color: #184e51;
   text-shadow: 0px 2px 4px rgb(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.75rem;
 }
 
 .herophoto {
@@ -128,14 +137,33 @@ h3 {
   mask-composite: intersect;
 }
 
+.home-text {
+  width: 55%;
+  font-size: 1.125rem;
+}
+
+.hp-skills {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.offer-box {
+  width: 65%;
+  padding: 4rem;
+}
+
+.offer-box p {
+  font-size: 1.125rem;
+}
+
 .photo-aside {
   position: relative;
   top: 10%;
   left: 1%;
-  width: 50%;
+  width: 30%;
 }
 
 .photo-aside img {
-  height: 256px;
-  border-radius: 50px;
+  height: 33.5rem;
+  border-radius: 10%;
 }

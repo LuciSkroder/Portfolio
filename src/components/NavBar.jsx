@@ -14,6 +14,7 @@ export default function NavBar() {
           {t("Home")}
         </NavLink>
         <NavLink to="/projects">{t("Projects")}</NavLink>
+        <NavLink to="/about">{t("About")}</NavLink>
       </nav>
       <LanguageSelector />
     </div>

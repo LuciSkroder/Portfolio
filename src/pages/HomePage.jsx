@@ -10,8 +10,14 @@ export default function HomePage() {
         <HeroPhoto></HeroPhoto>
         <h1>Luci Gabriella Skrøder</h1>
         <h2>{t("home-title")}</h2>
+        <p className="home-text">{t("home-text-1")}</p>
+        <p className="home-text">{t("home-text-2")}</p>
       </section>
       <section className="hp-skills">
+        <article className="offer-box">
+          <h2>{t("offer-titel")}</h2>
+          <p>{t("offer-text")}</p>
+        </article>
         <aside className="photo-aside">
           <img
             src="https://luciskroder.github.io/Portfolio/imgs/me.jpg"
