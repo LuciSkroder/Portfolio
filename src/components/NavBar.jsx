@@ -1,7 +1,7 @@
 import { NavLink } from "react-router";
 import LanguageSelector from "./LanguageSelector";
 import { useTranslation } from "react-i18next";
-import FavIcon from "../assets/facicon-l.svg?react";
+import FavIcon from "../assets/favicon-l.svg?react";
 
 export default function NavBar() {
   const { t } = useTranslation();
