@@ -1,5 +1,6 @@
 import { NavLink } from "react-router";
 import { useTranslation } from "react-i18next";
+import FavIcon from "../assets/favicon-l.svg?react";
 
 export default function HeroPhoto() {
   const { t } = useTranslation();
@@ -13,17 +14,26 @@ export default function HeroPhoto() {
         </ul>
       </div>
       <section>
-        <img
-          src="https://luciskroder.github.io/Portfolio/imgs/github.png"
-          alt="github logo"
-        />
-        <img
-          src="https://luciskroder.github.io/Portfolio/imgs/LinkedIn_icon.webp"
-          alt="LinkedIn logo"
-        />
+        <a href="https://github.com/LuciSkroder" target="_blank">
+          <img
+            src="https://luciskroder.github.io/Portfolio/imgs/github.png"
+            alt="github logo"
+            className="icon"
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/luci-gabriella-skr%C3%B8der-409350383/"
+          target="_blank"
+        >
+          <img
+            src="https://luciskroder.github.io/Portfolio/imgs/LinkedIn_icon.webp"
+            alt="LinkedIn logo"
+            className="icon"
+          />
+        </a>
       </section>
       <div>
-        <p>Links:</p>
+        <h4>Links:</h4>
         <ul>
           <li>
             <NavLink to="/cv">CV</NavLink>
@@ -41,6 +51,9 @@ export default function HeroPhoto() {
           </li>
         </ul>
       </div>
+      <NavLink to="/" end>
+        <FavIcon className="footer-logo" />
+      </NavLink>
     </section>
   );
 }

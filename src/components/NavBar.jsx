@@ -7,7 +7,9 @@ export default function NavBar() {
   const { t } = useTranslation();
   return (
     <div>
-      <FavIcon className="personal-logo" />
+      <NavLink to="/" end>
+        <FavIcon className="personal-logo" />
+      </NavLink>
       <nav>
         <NavLink to="/cv">CV</NavLink>
         <NavLink to="/" end>

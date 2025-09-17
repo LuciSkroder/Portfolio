@@ -172,11 +172,41 @@ h2 {
 
 .footer {
   width: 100%;
-  height: 14rem;
+  height: 18rem;
   background-color: #acc6c9;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 2rem;
   align-items: center;
+  mask-image: linear-gradient(0deg, #000, #000 80%, transparent);
+  color: #184e51;
+  padding-top: 6rem;
+}
+
+.icon {
+  width: 92px;
+  margin: 0 2rem;
+}
+
+.footer-logo {
+  height: 100px;
+}
+
+.footer-logo g path {
+  stroke-width: 1px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #184e51;
+}
+
+.footer a:hover {
+  color: #ad98c4;
+}
+
+.footer h4,
+ul {
+  margin: 0;
 }
