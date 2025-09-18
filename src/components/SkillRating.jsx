@@ -8,7 +8,7 @@ export default function SkillRating({ rating }) {
             style={{
               cursor: 'pointer',
               color: rating >= star ? '#AD98C4' : 'gray',
-              fontSize: `35px`,
+              fontSize: `24px`,
             }}
           >
             {' '}

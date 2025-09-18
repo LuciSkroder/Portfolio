@@ -102,7 +102,7 @@ nav a.active:hover {
 
 .hp-intro {
   padding: 2rem;
-  margin-bottom: 20rem;
+  margin-bottom: 14rem;
 }
 
 .hp-intro h1,
@@ -166,6 +166,26 @@ h2 {
 .photo-aside img {
   height: 33.5rem;
   border-radius: 10%;
+}
+
+.hp-programs {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  gap: 2rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.row div {
+  margin-left: 4rem;
+}
+
+.row h4 {
+  width: 75px;
 }
 
 /* ---------- Footer ---------- */
