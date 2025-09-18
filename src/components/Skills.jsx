@@ -12,24 +12,24 @@ export default function Skills() {
             <img className="icon" src="https://luciskroder.github.io/Portfolio/imgs/react.svg" alt="React logo" />
             <div>
               <div className="row">
-              <h4>React</h4>
+              <h3>React</h3>
               <SkillRating rating={3} ></SkillRating>
               </div>
-              <p></p>
+              <p>{t("react")}</p>
             </div><img className="icon" src="https://luciskroder.github.io/Portfolio/imgs/figma-icon.png" alt="Figma logo" />
             <div>
               <div className="row">
-              <h4>Figma</h4>
+              <h3>Figma</h3>
               <SkillRating rating={3} ></SkillRating>
               </div>
-              <p></p>
+              <p>{t("figma")}</p>
             </div><img className="icon" src="https://luciskroder.github.io/Portfolio/imgs/illustrator-icon.png" alt="Illustrator logo" />
             <div>
               <div className="row">
-              <h4>Illustrator</h4>
+              <h3>Illustrator</h3>
               <SkillRating rating={2} ></SkillRating>
               </div>
-              <p></p>
+              <p>{t("illustrator")}</p>
             </div>
           </section>
         </article>

@@ -166,6 +166,7 @@ h2 {
 .photo-aside img {
   height: 33.5rem;
   border-radius: 10%;
+  margin-top: 6rem;
 }
 
 .hp-programs {
@@ -184,7 +185,7 @@ h2 {
   margin-left: 4rem;
 }
 
-.row h4 {
+.row h3 {
   width: 75px;
 }
 
