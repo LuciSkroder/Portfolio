@@ -6,7 +6,6 @@ export default function SkillRating({ rating }) {
           <span
             className='start'
             style={{
-              cursor: 'pointer',
               color: rating >= star ? '#AD98C4' : 'gray',
               fontSize: `24px`,
             }}
