@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import HeroPhoto from "../components/HeroPhoto";
+import SkillRating from "../components/SkillRating";
 
 export default function HomePage() {
   const { t } = useTranslation();
@@ -17,6 +18,16 @@ export default function HomePage() {
         <article className="offer-box">
           <h2>{t("offer-titel")}</h2>
           <p>{t("offer-text")}</p>
+          <section className="hp-programs">
+            <img src="" alt="" />
+            <div>
+              <div>
+              <h4>React</h4>
+              <SkillRating rating={3} ></SkillRating>
+              </div>
+              <p></p>
+            </div>
+          </section>
         </article>
         <aside className="photo-aside">
           <img
