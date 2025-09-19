@@ -12,7 +12,22 @@
   "react": "I am learning React with a focus on building applications from reusable components. I enjoy thinking logically about how things fit together and how structure can make code easier to maintain and expand.",
   "illustrator": "My experience in Illustrator is limited, but I want to become proficient in creating icons and logos. I find it exciting to learn more about vector design and I am motivated to improve my skills step by step.",
   "steno": "The Overlooked Body",
+  "case-text": "The project for the Steno Museum had a strong focus on communicating to children and young people as the primary target group. We received a questionnaire prepared by the museum, which served as the foundation for our UX and design work.", 
+  "case-li1": "I learned to think strategically about different user groups.",
+  "case-li2": "I learned to adapt the level of communication to the target audience.",
+  "case-li3": "I learned how to integrate code into a physical exhibition.",
   "WBS": "Methodical approach",
+  "WBS-text": "We were a group of three, and I acted as project lead. I developed our WBS and distributed the tasks.",
+  "WBS-li1": "I improved my collaboration skills.",
+  "WBS-li2": "I improved my ability to maintain an overview.",
   "color": "Color palette",
-  "responsive": "Responsive design"
+  "color-text": "With the topic of endometriosis, we dedicated a lot of time to developing a color palette that made a bodily and potentially taboo subject more approachable for the target audience.",
+  "color-li1": "Warm, body-related colors create a calming impression.",
+  "color-li2": "A sharp and cool contrast color captures attention.",
+  "responsive": "Interactive design",
+  "resp-text": "It was crucial for the client that the project was interactive in order to engage the target group.",
+  "resp-li1": "We used gamification to support learning.",
+  "resp-li2": "We applied non-linear storytelling for a more personal experience.",
+  "resp-li3": "We designed different levels of engagement to appeal to all segments.",
+  "more": "Read more"
 }
