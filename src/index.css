@@ -147,6 +147,7 @@ h2 {
 .hp-skills {
   display: flex;
   flex-direction: row-reverse;
+  margin-bottom: 6rem;
 }
 
 .offer-box {
@@ -196,6 +197,7 @@ h2 {
   display: grid;
   grid-template-columns: 65% 35%;
   background-color: #3d3b46;
+  margin-bottom: 2rem;
 }
 
 .stairs {
