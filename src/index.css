@@ -202,6 +202,28 @@ h2 {
   width: 100%;
 }
 
+.case-grid h2 {
+  margin: 0;
+  margin-left: 2rem;
+  color: #ad98c4;
+  font-size: 2.25rem;
+}
+
+.case-grid h2:first-of-type {
+  margin-top: 2rem;
+}
+
+.case-grid p, ul, li {
+  color: #acc6c9;
+  margin-left: 3rem;
+}
+
+.case-grid h3 {
+  color: #ad98c4;
+  margin-left: 3rem;
+  margin-top: 6rem;
+}
+
 /* ---------- Footer ---------- */
 
 .footer {
