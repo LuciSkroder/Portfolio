@@ -36,6 +36,6 @@ export default function CaseStudy() {
             <li></li>
         </ul>
     </article>
-    <aside><img className="stairs" src="https://luciskroder.github.io/Portfolio/imgs/case-stairs.webp" alt="Picture of stairs in a forest" /></aside>
+    <aside><img className="stairs" src="https://luciskroder.github.io/Portfolio/imgs/" alt="Picture of stairs in a forest" /></aside>
   </section>);
 }
