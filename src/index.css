@@ -29,6 +29,7 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
+  width: 100%;
 }
 
 /* ---------- Personal Logo ---------- */
@@ -102,7 +103,8 @@ nav a.active:hover {
 
 .hp-intro {
   padding: 2rem;
-  margin-bottom: 14rem;
+  margin-bottom: 10%;
+  height: auto;
 }
 
 .hp-intro h1,
@@ -187,6 +189,17 @@ h2 {
 
 .row h3 {
   width: 75px;
+}
+
+/* ---------- Casestudy ---------- */
+.case-grid {
+  display: grid;
+  grid-template-columns: 65% 35%;
+  background-color: #3d3b46;
+}
+
+.stairs {
+  width: 100%;
 }
 
 /* ---------- Footer ---------- */

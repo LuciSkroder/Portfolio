@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import HeroPhoto from "../components/HeroPhoto";
 import Skills from "../components/Skills";
+import CaseStudy from "../components/CaseStudy";
 
 
 export default function HomePage() {
@@ -16,7 +17,7 @@ export default function HomePage() {
         <p className="home-text">{t("home-text-2")}</p>
       </section>
       <Skills></Skills>
-      <section className="hp-case"></section>
+      <CaseStudy></CaseStudy>
     </div>
   );
 }
