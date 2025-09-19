@@ -192,6 +192,11 @@ h2 {
   width: 75px;
 }
 
+/* ---------- PDF Viewer ---------- */
+.react-pdf__Document {
+  width: fit-content;
+}
+
 /* ---------- Casestudy ---------- */
 .case-grid {
   display: grid;
