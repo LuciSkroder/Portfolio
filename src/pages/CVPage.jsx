@@ -2,7 +2,7 @@ export default function CVPage() {
   return (
     <div className="pdf-flex">
       <object className="pdf-cv"
-      data="/imgs/cv.pdf"
+      data={`${import.meta.env.BASE_URL}imgs/cv.pdf`}
       type="application/pdf"
       >
         <p>
