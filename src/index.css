@@ -44,7 +44,6 @@ nav {
   display: flex;
   background-color: var(--dark);
   padding: 1rem 2rem;
-  box-shadow: var(--shadow);
   font-size: 1.5rem;
   text-align: center;
   justify-content: space-evenly;
@@ -302,4 +301,46 @@ h2 {
 .footer h4,
 ul {
   margin: 0;
+}
+
+/* ---------- Projects ---------- */
+.headline-container{
+  margin-top: 3.5rem;
+}
+
+.headline-container h1{
+  color: #184e51;
+  text-shadow: 0px 2px 4px rgb(0, 0, 0, 0.5);
+}
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-row {
+  width: 90%;
+  background-color: #3d3b46;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px black;
+  margin: 2rem;
+}
+
+.project-row figure img {
+  width: 80%;
+}
+
+.project-row h2, h3 {
+  color: var(--text-light);
+}
+
+.project-row a {
+  text-decoration: none;
+  color: #87CFFF;
+}
+
+.project-row p {
+  color: #acc6c9;
 }
