@@ -193,8 +193,15 @@ h2 {
 }
 
 /* ---------- PDF Viewer ---------- */
-.react-pdf__Document {
-  width: fit-content;
+.pdf-flex {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.pdf-cv {
+  width: 85%;
+  height: 1000px;
 }
 
 /* ---------- Casestudy ---------- */
