@@ -5,6 +5,7 @@ export default function Projects({ project }) {
 
   return (
     <section className="project-row">
+      <section className="share">
         <h2>{t(project.title)}</h2>
         <a href={project.link} target="_blank">{project.link}</a>
         <article>
@@ -15,9 +16,10 @@ export default function Projects({ project }) {
             <h3>{t("Ilearn")}</h3>
             <p>{t(project.ILearned)}</p>
         </article>
-        <figure>
-            <img src={project.image} alt={`Image of my project: ${project.name}`} />
-        </figure>
+      </section>
+      <figure className="share">
+          <img src={project.image} alt={`Image of my project: ${project.name}`} />
+      </figure>
     </section>
   );
 }

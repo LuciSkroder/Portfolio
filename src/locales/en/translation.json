@@ -39,7 +39,7 @@
   "dress-title": "Visual Identity",
   "dress-did": "I was the most technically skilled member of the team, which gave me the main responsibility for programming and assisting teammates with their challenges. I provided feedback and ideas for design, and I implemented the design solutions created by the others.",
   "dress-learn": "I gained significant insight into visual identity through the use of colors and imagery. Working with a design-strong team allowed me to engage deeply with their choices and develop a stronger understanding of cohesive design.",
-  "buzz-title": "UX and UI Optimisation",
-  "buzz-did": "",
-  "buzz-learn": ""
+  "port-title": "Online Portfolio",
+  "port-did": "My first project with React was this portfolio. I worked dynamically with components to build the pages and experimented with various npm packages such as i18n, pdfjs (later discarded), and react-router.",
+  "port-learn": "I gained valuable experience with the interaction between components, working with data in JSON files, and ensuring that a local development version also functions correctly after deployment. In addition, I developed skills in handling complex interactions between files within a project."
 }

@@ -326,6 +326,12 @@ ul {
   border-radius: 10px;
   box-shadow: 0px 0px 10px black;
   margin: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.share {
+  flex: 1;
 }
 
 .project-row figure img {

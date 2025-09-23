@@ -39,7 +39,7 @@
   "dress-title": "Visuel Identitet",
   "dress-did": "Jeg var den mest teknisk erfarne i teamet, hvilket gav mig hovedansvaret for programmeringen og for at hjælpe mine teammedlemmer med deres udfordringer. Jeg gav feedback og idéer til design og implementerede de løsninger, som de andre udarbejdede.",
   "dress-learn": "Jeg opnåede værdifuld indsigt i visuel identitet gennem brugen af farver og billeder. Ved at arbejde sammen med et designstærkt team satte jeg mig ind i deres valg og fik en bedre forståelse for et sammenhængende design.",
-  "buzz-title": "UX og UI Optimering",
-  "buzz-did": "",
-  "buzz-learn": ""
+  "port-title": "Online Portfølje",
+  "port-did": "Mit første projekt med React var dette portefølje. Jeg arbejdede dynamisk med komponenter for at opbygge siderne og eksperimenterede med forskellige npm-pakker såsom i18n, pdfjs (senere fravalgt) og react-router.",
+  "port-learn": "Jeg fik værdifuld erfaring med sammenspillet mellem komponenter, arbejdet med data i JSON-filer og at sikre, at en lokal udviklerversion også fungerer korrekt efter deployment. Derudover udviklede jeg kompetencer i at håndtere komplekse sammenspil mellem filer i et projekt."
 }
