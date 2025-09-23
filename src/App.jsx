@@ -3,7 +3,6 @@ import HomePage from "./pages/HomePage";
 import ProjectsPage from "./pages/ProjectsPage";
 import CVPage from "./pages/CVPage";
 import NavBar from "./components/NavBar";
-import DetailPage from "./pages/DetailPage";
 import AboutPage from "./pages/AboutPage";
 import Footer from "./components/Footer";
 
