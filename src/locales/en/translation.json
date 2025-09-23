@@ -41,5 +41,11 @@
   "dress-learn": "I gained significant insight into visual identity through the use of colors and imagery. Working with a design-strong team allowed me to engage deeply with their choices and develop a stronger understanding of cohesive design.",
   "port-title": "Online Portfolio",
   "port-did": "My first project with React was this portfolio. I worked dynamically with components to build the pages and experimented with various npm packages such as i18n, pdfjs (later discarded), and react-router.",
-  "port-learn": "I gained valuable experience with the interaction between components, working with data in JSON files, and ensuring that a local development version also functions correctly after deployment. In addition, I developed skills in handling complex interactions between files within a project."
+  "port-learn": "I gained valuable experience with the interaction between components, working with data in JSON files, and ensuring that a local development version also functions correctly after deployment. In addition, I developed skills in handling complex interactions between files within a project.",
+  "soft-title": "Soft Skills",
+  "soft-text": "",
+  "photo-title": "Amateur Photographer",
+  "photo-text": "",
+  "hobby-text": "",
+  "hobby-title": "Hobbies"
 }
