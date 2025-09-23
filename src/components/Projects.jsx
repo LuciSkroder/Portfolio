@@ -9,11 +9,11 @@ export default function Projects({ project }) {
         <a href={project.link} target="_blank">{project.link}</a>
         <article>
             <h3>{t("Idid")}</h3>
-            <p>{project.whatIDid}</p>
+            <p>{t(project.whatIDid)}</p>
          </article>
         <article>
             <h3>{t("Ilearn")}</h3>
-            <p>{project.ILearned}</p>
+            <p>{t(project.ILearned)}</p>
         </article>
         <figure>
             <img src={project.image} alt={`Image of my project: ${project.name}`} />
