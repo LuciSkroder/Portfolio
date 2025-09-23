@@ -8,7 +8,7 @@ export default function ProjectsSection() {
 
   useEffect(() => {
     async function getData() {
-      const response = await fetch("/projects.json");
+      const response = await fetch(`${process.env.PUBLIC_URL}/projects.json`);
       const data = await response.json();
       setProjects(data);
     }

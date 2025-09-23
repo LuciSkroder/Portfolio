@@ -1,6 +1,14 @@
 [
-  {
+    {
     "id": 1,
+    "title": "port-title",
+    "link": "https://luciskroder.github.io/Portfolio/",
+    "whatIDid": "port-did",
+    "ILearned": "port-learn",
+    "image": "https://luciskroder.github.io/Portfolio/imgs/portfolio.webp"
+  },
+  {
+    "id": 2,
     "title": "steno-title",
     "link": "https://eksamensteno2025.luciskroder.dk/",
     "whatIDid": "steno-did",
@@ -8,19 +16,11 @@
     "image": "https://luciskroder.github.io/Portfolio/imgs/project-endometriose.webp"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "dress-title",
     "link": "http://responsiveweb.luciskroder.dk/",
     "whatIDid": "dress-did",
     "ILearned": "dress-learn",
     "image": "https://luciskroder.github.io/Portfolio/imgs/project-responsiv.webp"
-  },
-  {
-    "id": 3,
-    "title": "buzz-title",
-    "link": "http://zerobuzzbrew.luciskroder.dk",
-    "whatIDid": "buzz-did",
-    "ILearned": "buzz-learn",
-    "image": "https://luciskroder.github.io/Portfolio/imgs/project-zerobuzz.webp"
   }
 ]
