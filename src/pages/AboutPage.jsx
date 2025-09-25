@@ -5,28 +5,30 @@ export default function AboutPage() {
 
   return (
     <section>
-      <article>
-        <section>
-          <div>
+      <article className="about-box">
+        <section className="share">
+          <div className="hobby-line">
             <h2>{t("soft-title")}</h2>
-            <img src="https://luciskroder.github.io/Portfolio/imgs/person.png" alt="Small icon of a person" />
+            <img className="hobby-logo" src="https://luciskroder.github.io/Portfolio/imgs/person.png" alt="Small icon of a person" />
           </div>
           <p>{t("soft-text")}</p>
         </section>
-        <section>
-          <img src="https://luciskroder.github.io/Portfolio/imgs/softskills-1.png" alt="Diagram of colors corrosponding to certain skills" />
-          <img src="https://luciskroder.github.io/Portfolio/imgs/softskills-2.png" alt="List of skills ranked by percentage" />
+        <section className="share">
+          <div className="hobby-line">
+            <img className="soft-img" src="https://luciskroder.github.io/Portfolio/imgs/softskills-2.png" alt="List of skills ranked by percentage" />
+            <img className="soft-img" src="https://luciskroder.github.io/Portfolio/imgs/softskills-1.png" alt="Diagram of colors corrosponding to certain skills" />
+          </div>
         </section>
       </article>
-      <article>
-        <section>
-          <div>
+      <article className="about-box">
+        <section className="share">
+          <div className="hobby-line">
             <h2>{t("photo-title")}</h2>
-            <img src="https://luciskroder.github.io/Portfolio/imgs/Camera.png" alt="Small icon of a camera" />
+            <img className="hobby-logo" src="https://luciskroder.github.io/Portfolio/imgs/Camera.png" alt="Small icon of a camera" />
           </div>
           <p>{t("photo-text")}</p>
         </section>
-        <section>
+        <section className="share">
           <img src="" alt="" />
           <img src="" alt="" />
           <img src="" alt="" />
@@ -35,11 +37,11 @@ export default function AboutPage() {
           <img src="" alt="" />
         </section>
       </article>
-      <article>
-        <section>
-          <div>
+      <article className="about-box">
+        <section className="share">
+          <div className="hobby-line">
             <h2>{t("hobby-title")}</h2>
-            <img src="https://luciskroder.github.io/Portfolio/imgs/Pen tool.png" alt="Small icon of a cursive pen" />
+            <img className="hobby-logo" src="https://luciskroder.github.io/Portfolio/imgs/Pen tool.png" alt="Small icon of a cursive pen" />
           </div>
           <p>{t("hobby-text")}</p>
         </section>

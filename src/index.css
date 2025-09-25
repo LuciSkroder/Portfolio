@@ -350,3 +350,33 @@ ul {
 .project-row p {
   color: #acc6c9;
 }
+
+/* ---------- About me ---------- */
+.about-box {
+  width: 90%;
+  background-color: #3d3b46;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px black;
+  margin: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.hobby-line {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.hobby-logo {
+  width: 48px;
+  height: 48px;
+  margin-left: 1rem;
+}
+
+.soft-img {
+  height: 50%;
+  width: 50%;
+  margin: 5px;
+}
