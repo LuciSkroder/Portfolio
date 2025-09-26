@@ -7,7 +7,7 @@ export default function AboutPage() {
   const [galleryImages, setGalleryImages] = useState([]);
 
   useEffect(() => {
-    fetch("/imgs/gallery/gallery.json")
+    fetch("imgs/gallery/gallery.json")
       .then((res) => res.json())
       .then(setGalleryImages)
       .catch((err) => console.error("Failed to load gallery JSON:", err));
