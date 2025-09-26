@@ -53,7 +53,7 @@ export default function AboutPage() {
           <button onClick={() => setIsGalleryOpen(false)}>Close</button>
           <div>
             {galleryImages.map((img) => (
-              <img key={img} src={`${process.env.PUBLIC_URL}/imgs/gallery/${img}`} className="gallery-img" />
+              <img key={img} src={`${process.env.PUBLIC_URL}imgs/gallery/${img}`} className="gallery-img" />
             ))}
           </div>
         </section>
