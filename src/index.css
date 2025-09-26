@@ -30,6 +30,7 @@ body {
   padding: 0;
   line-height: 1.6;
   width: 100%;
+  min-width: 412px;
 }
 
 /* ---------- Personal Logo ---------- */
@@ -189,6 +190,8 @@ h2 {
 
 .row h3 {
   width: 75px;
+  text-shadow: none;
+  font-size: 1.5rem;
 }
 
 /* ---------- PDF Viewer ---------- */
@@ -249,7 +252,7 @@ h2 {
   mask-composite: intersect;
 }
 
-.case-grid button {
+button {
   float: right;
   margin-right: 1rem;
   background-color: #ad98c4;
@@ -379,4 +382,16 @@ ul {
   height: 50%;
   width: 50%;
   margin: 5px;
+}
+
+.highlight {
+  height: auto;
+  width: 30%;
+  float: right;
+  margin: 2px;
+}
+
+.about-text {
+  color: #acc6c9;
+  padding-right: 3rem;
 }

@@ -43,9 +43,10 @@
   "port-did": "Mit første projekt med React var dette portefølje. Jeg arbejdede dynamisk med komponenter for at opbygge siderne og eksperimenterede med forskellige npm-pakker såsom i18n, pdfjs (senere fravalgt) og react-router.",
   "port-learn": "Jeg fik værdifuld erfaring med sammenspillet mellem komponenter, arbejdet med data i JSON-filer og at sikre, at en lokal udviklerversion også fungerer korrekt efter deployment. Derudover udviklede jeg kompetencer i at håndtere komplekse sammenspil mellem filer i et projekt.",
   "soft-title": "Personlige Kompetencer",
-  "soft-text": "",
-  "photo-title": "Amatør Photograf",
-  "photo-text": "",
-  "hobby-text": "",
-  "hobby-title": "Hobbyer"
+  "soft-text": "Med Candeno's indbyggede kompetencevurdering, Praice, har jeg og personer, der kender mig, rangeret mine kompetencer. Som det fremgår af billederne, er jeg stærk inden for områder som ansvarlighed, sans for detaljer, hjælpsomhed og systematik. Jeg er altid klar til at støtte andre og har stort fokus på at løse problemer på en struktureret måde.",
+  "photo-title": "Amatør fotograf",
+  "photo-text": "Fotografi er en mindre, men passiondrevet hobby for mig. Jeg nyder at finde den rette vinkel, der kan skabe en oplevelse eller formidle en følelse gennem billeder. For mig er det en måde at være kreativ uden for mine faste rammer og træne fleksibel tænkning.",
+  "hobby-text": "Jeg har mange kreative hobbyer og sætter pris på samvær med andre mennesker. Jeg leder blandt andet et ugentligt Dungeons & Dragons-spil for tre venner og min partner, maler modeller, læser og skriver. Derudover har jeg erfaring fra frivilligt arbejde ved sportsarrangementer, konferencer og elevråd samt som en del af arrangørteamet for Koyo-con og Koyo-com Summer i et år. Gennem disse aktiviteter har jeg udviklet kompetencer inden for samarbejde, planlægning, kommunikation og kreativ problemløsning, som jeg også trækker på i en professionel sammenhæng.",
+  "hobby-title": "Hobbyer",
+  "gallery": "Se galleri"
 }

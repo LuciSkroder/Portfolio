@@ -7,7 +7,7 @@ export default function CaseStudy() {
   return (
   <section className="case-grid">
     <article>
-        <h2 h2>Casestudy -</h2>
+        <h2>Casestudy -</h2>
         <h2> Steno Museum, {t("steno")}</h2>
         <p>{t("case-text")}</p>
         <ul>

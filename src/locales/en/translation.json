@@ -43,9 +43,10 @@
   "port-did": "My first project with React was this portfolio. I worked dynamically with components to build the pages and experimented with various npm packages such as i18n, pdfjs (later discarded), and react-router.",
   "port-learn": "I gained valuable experience with the interaction between components, working with data in JSON files, and ensuring that a local development version also functions correctly after deployment. In addition, I developed skills in handling complex interactions between files within a project.",
   "soft-title": "Soft Skills",
-  "soft-text": "",
+  "soft-text": "Through Candeno’s built-in competence assessment, Praice, both I and people who know me have evaluated my strengths. As shown in the images, my key competencies include responsibility, attention to detail, helpfulness, and systematic thinking. I am always ready to support others and place great emphasis on solving problems in a structured way.",
   "photo-title": "Amateur Photographer",
-  "photo-text": "",
-  "hobby-text": "",
-  "hobby-title": "Hobbies"
+  "photo-text": "Photography is a smaller, yet passion-driven hobby for me. I enjoy finding the right angle that can create an experience or convey a feeling through images. For me, it is a way to be creative outside of my usual frameworks and to practice flexible thinking.",
+  "hobby-text": "I enjoy a variety of creative hobbies and value spending time with others. I run a weekly Dungeons & Dragons game for three friends and my partner, paint models, read, and write. I also have experience from volunteer work at sports events, conventions, and student councils, and was part of the organizer team for Koyo-con and Koyo-com Summer for a year. Through these activities, I have developed skills in collaboration, planning, communication, and creative problem-solving, which I also apply in a professional context.",
+  "hobby-title": "Hobbies",
+  "gallery": "View gallery"
 }

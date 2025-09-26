@@ -1,7 +1,10 @@
 import { useTranslation } from "react-i18next";
+import { useState } from "react";
+import galleryImages from "../galleryImages.json";
 
 export default function AboutPage() {
   const { t } = useTranslation();
+  const [isGalleryOpen, setIsGalleryOpen] = useState(false);
 
   return (
     <section>
@@ -11,7 +14,7 @@ export default function AboutPage() {
             <h2>{t("soft-title")}</h2>
             <img className="hobby-logo" src="https://luciskroder.github.io/Portfolio/imgs/person.png" alt="Small icon of a person" />
           </div>
-          <p>{t("soft-text")}</p>
+          <p className="about-text">{t("soft-text")}</p>
         </section>
         <section className="share">
           <div className="hobby-line">
@@ -26,25 +29,32 @@ export default function AboutPage() {
             <h2>{t("photo-title")}</h2>
             <img className="hobby-logo" src="https://luciskroder.github.io/Portfolio/imgs/Camera.png" alt="Small icon of a camera" />
           </div>
-          <p>{t("photo-text")}</p>
+          <p className="about-text">{t("photo-text")}</p>
+          <button onClick={() => setIsGalleryOpen(true)}>{t("gallery")}</button>
         </section>
         <section className="share">
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
+          <img className="highlight" src="https://luciskroder.github.io/Portfolio/imgs/highlight-1.webp" alt="" />
+          <img className="highlight" src="https://luciskroder.github.io/Portfolio/imgs/highlight-2.webp" alt="" />
+          <img className="highlight" src="https://luciskroder.github.io/Portfolio/imgs/highlight-3.webp" alt="" />
+          <img className="highlight" src="https://luciskroder.github.io/Portfolio/imgs/highlight-4.webp" alt="" />
+          <img className="highlight" src="https://luciskroder.github.io/Portfolio/imgs/highlight-5.webp" alt="" />
+          <img className="highlight" src="https://luciskroder.github.io/Portfolio/imgs/highlight-6.webp" alt="" />
         </section>
       </article>
+      {isGalleryOpen && (
+        <section className="gallery">
+          <button onClick={() => setIsGalleryOpen(false)}>Close</button>
+        </section>
+      )}
       <article className="about-box">
         <section className="share">
           <div className="hobby-line">
             <h2>{t("hobby-title")}</h2>
             <img className="hobby-logo" src="https://luciskroder.github.io/Portfolio/imgs/Pen tool.png" alt="Small icon of a cursive pen" />
           </div>
-          <p>{t("hobby-text")}</p>
+          <p className="about-text">{t("hobby-text")}</p>
         </section>
+        <section className="share"></section>
       </article>
     </section>
   );
