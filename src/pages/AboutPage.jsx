@@ -1,10 +1,17 @@
 import { useTranslation } from "react-i18next";
-import { useState } from "react";
-import galleryImages from "../galleryImages.json";
+import { useState, useEffect } from "react";
 
 export default function AboutPage() {
   const { t } = useTranslation();
   const [isGalleryOpen, setIsGalleryOpen] = useState(false);
+  const [galleryImages, setGalleryImages] = useState([]);
+
+  useEffect(() => {
+    fetch("/imgs/gallery/gallery.json")
+      .then((res) => res.json())
+      .then(setGalleryImages)
+      .catch((err) => console.error("Failed to load gallery JSON:", err));
+  }, []);
 
   return (
     <section>
@@ -33,17 +40,22 @@ export default function AboutPage() {
           <button onClick={() => setIsGalleryOpen(true)}>{t("gallery")}</button>
         </section>
         <section className="share">
-          <img className="highlight" src="https://luciskroder.github.io/Portfolio/imgs/highlight-1.webp" alt="" />
-          <img className="highlight" src="https://luciskroder.github.io/Portfolio/imgs/highlight-2.webp" alt="" />
-          <img className="highlight" src="https://luciskroder.github.io/Portfolio/imgs/highlight-3.webp" alt="" />
-          <img className="highlight" src="https://luciskroder.github.io/Portfolio/imgs/highlight-4.webp" alt="" />
-          <img className="highlight" src="https://luciskroder.github.io/Portfolio/imgs/highlight-5.webp" alt="" />
-          <img className="highlight" src="https://luciskroder.github.io/Portfolio/imgs/highlight-6.webp" alt="" />
+          <img className="highlight" src="https://luciskroder.github.io/Portfolio/imgs/highlight-1.webp" />
+          <img className="highlight" src="https://luciskroder.github.io/Portfolio/imgs/highlight-2.webp" />
+          <img className="highlight" src="https://luciskroder.github.io/Portfolio/imgs/highlight-3.webp" />
+          <img className="highlight" src="https://luciskroder.github.io/Portfolio/imgs/highlight-4.webp" />
+          <img className="highlight" src="https://luciskroder.github.io/Portfolio/imgs/highlight-5.webp" />
+          <img className="highlight" src="https://luciskroder.github.io/Portfolio/imgs/highlight-6.webp" />
         </section>
       </article>
       {isGalleryOpen && (
         <section className="gallery">
           <button onClick={() => setIsGalleryOpen(false)}>Close</button>
+          <div>
+            {galleryImages.map((img) => (
+              <img key={img} src={`/imgs/gallery/${img}`} className="gallery-img" />
+            ))}
+          </div>
         </section>
       )}
       <article className="about-box">
