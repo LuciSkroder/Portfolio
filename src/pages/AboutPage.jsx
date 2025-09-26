@@ -7,11 +7,11 @@ export default function AboutPage() {
   const [galleryImages, setGalleryImages] = useState([]);
 
   useEffect(() => {
-    fetch("imgs/gallery/gallery.json")
-      .then((res) => res.json())
-      .then(setGalleryImages)
-      .catch((err) => console.error("Failed to load gallery JSON:", err));
-  }, []);
+  fetch("imgs/gallery/gallery.json")
+    .then(res => res.json())
+    .then(setGalleryImages)
+    .catch(err => console.error(err));
+}, [])
 
   return (
     <section>
@@ -53,7 +53,7 @@ export default function AboutPage() {
           <button onClick={() => setIsGalleryOpen(false)}>Close</button>
           <div>
             {galleryImages.map((img) => (
-              <img key={img} src={`${process.env.PUBLIC_URL}imgs/gallery/${img}`} className="gallery-img" />
+              <img key={img} src={`imgs/gallery/${img}`} className="gallery-img" />
             ))}
           </div>
         </section>
