@@ -12,7 +12,7 @@
   "react": "I am learning React with a focus on building applications from reusable components. I enjoy thinking logically about how things fit together and how structure can make code easier to maintain and expand.",
   "illustrator": "My experience in Illustrator is limited, but I want to become proficient in creating icons and logos. I find it exciting to learn more about vector design and I am motivated to improve my skills step by step.",
   "steno": "The Overlooked Body",
-  "case-text": "The project for the Steno Museum had a strong focus on communicating to children and young people as the primary target group. We received a questionnaire prepared by the museum, which served as the foundation for our UX and design work.", 
+  "case-text": "The project for the Steno Museum had a strong focus on communicating to children and young people as the primary target group. We received a questionnaire prepared by the museum, which served as the foundation for our UX and design work.",
   "case-li1": "I learned to think strategically about different user groups.",
   "case-li2": "I learned to adapt the level of communication to the target audience.",
   "case-li3": "I learned how to integrate code into a physical exhibition.",
@@ -48,5 +48,6 @@
   "photo-text": "Photography is a smaller, yet passion-driven hobby for me. I enjoy finding the right angle that can create an experience or convey a feeling through images. For me, it is a way to be creative outside of my usual frameworks and to practice flexible thinking.",
   "hobby-text": "I enjoy a variety of creative hobbies and value spending time with others. I run a weekly Dungeons & Dragons game for three friends and my partner, paint models, read, and write. I also have experience from volunteer work at sports events, conventions, and student councils, and was part of the organizer team for Koyo-con and Koyo-com Summer for a year. Through these activities, I have developed skills in collaboration, planning, communication, and creative problem-solving, which I also apply in a professional context.",
   "hobby-title": "Hobbies",
-  "gallery": "View gallery"
+  "gallery": "View gallery",
+  "firebase": "During an exam project, I worked with several of Firebase’s core services, including Realtime Database, Authentication, and Cloud Functions, gaining solid experience in configuring and implementing database security rules."
 }
